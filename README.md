@@ -2,11 +2,11 @@
 Program which downloads products from Copernicus, checks md5, and makes a log to database about product
 
 In order to run this program:
-
 1. Establish mysql connection.
+
   Databse name should be ESA_DB
   grant all privileges on *.* to 'esa_user'@'localhost' identified by 'esa_password';
- 
+  
 2. Create table in databse.
     create table esa_content
   (
